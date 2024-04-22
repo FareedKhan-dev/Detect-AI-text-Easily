@@ -25,7 +25,7 @@ def extract_text_from_file(uploaded_file):
     return text.lower()
 
 # List of keywords to search for
-word_list = [
+keywords = [
     "Delve", "Harnessing", "At the heart of", "In essence", "Facilitating", 
     "Intrinsic", "Integral", "Core", "Facet", "Nuance", "Culmination", 
     "Manifestation", "Inherent", "Confluence", "Underlying", "Intricacies", 
