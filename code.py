@@ -25,24 +25,21 @@ def extract_text_from_file(uploaded_file):
     return text.lower()
 
 # List of keywords to search for
-keywords =word_list = [
-    "Delve", "Harnessing", "At the heart of", "In essence", "Facilitating",
-    "Intrinsic", "Essence", "Integral", "Core", "Facet", "Nuance", "Culmination",
-    "Manifestation", "Inherent", "Confluence", "Underlying", "Intricacies",
-    "Epitomize", "Embodiment", "Iteration", "Synthesize", "Amplify", "Impetus",
-    "Catalyst", "Synergy", "Cohesive", "Paradigm", "Dynamics", "Implications",
-    "Prerequisite", "Fusion", "Holistic", "Quintessential", "Cohesion", "Symbiosis",
-    "Integration", "Encompass", "Unveil", "Unravel", "Emanate", "Illuminate",
-    "Reverberate", "Augment", "Infuse", "Extrapolate", "Embody", "Unify",
-    "Inflection", "Instigate", "Embark", "Unravel", "Unveil", "Envisage",
-    "Elucidate", "Substantiate", "Resonate", "Catalyze", "Resilience", "Unveil",
-    "Augment", "Encompass", "Synergy", "Paradigm", "Dynamics", "Impetus",
-    "Cohesive", "Quintessential", "Synthesize", "Holistic", "Amplify", "Implications",
-    "Prerequisite", "Fusion", "Encompass", "Quintessential", "Cohesion", "Symbiosis",
-    "Integration", "Reverberate", "Illuminate", "Emanate", "Infuse", "Extrapolate",
-    "Embody", "Unify", "Inflection", "Instigate", "Embark", "Unravel", "Unveil",
-    "Envisage", "Elucidate", "Substantiate", "Resonate", "Catalyze", "Resilience",
-    "Evoke", "Pinnacle", "Evolve"
+word_list = [
+    "Delve", "Harnessing", "At the heart of", "In essence", "Facilitating", 
+    "Intrinsic", "Integral", "Core", "Facet", "Nuance", "Culmination", 
+    "Manifestation", "Inherent", "Confluence", "Underlying", "Intricacies", 
+    "Epitomize", "Embodiment", "Iteration", "Synthesize", "Amplify", 
+    "Impetus", "Catalyst", "Synergy", "Cohesive", "Paradigm", "Dynamics", 
+    "Implications", "Prerequisite", "Fusion", "Holistic", "Quintessential", 
+    "Cohesion", "Symbiosis", "Integration", "Encompass", "Unveil", "Unravel", 
+    "Emanate", "Illuminate", "Reverberate", "Augment", "Infuse", "Extrapolate", 
+    "Embody", "Unify", "Inflection", "Instigate", "Embark", "Envisage", 
+    "Elucidate", "Substantiate", "Resonate", "Catalyze", "Resilience", 
+    "Evoke", "Pinnacle", "Evolve", "Digital Bazaar", "Tapestry", "Leverage", 
+    "Centerpiece", "Subtlety", "Immanent", "Exemplify", "Blend", 
+    "Comprehensive", "Archetypal", "Unity", "Harmony", "Conceptualize", 
+    "Reinforce", "Mosaic"
 ]
 
 # lower keyword list
